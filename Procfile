@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn commenteval.wsgi
+web: gunicorn testproject.wsgi
